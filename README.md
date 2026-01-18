@@ -1,24 +1,16 @@
-# Achievement Trigger System
+# Pretty Blank Island - Unity Systems
 
-A Unity-based achievement system that detects player interaction with game objects and unlocks platform-specific achievements.
+Game systems built for Pretty Blank Island, a first-person exploration game submitted to Steam, Xbox, and PlayStation.
 
-## Features
-- Trigger-based collision detection
-- Cross-platform achievement integration (Steam, Xbox, PlayStation)
-- Reusable component for multiple achievement types
+## Systems Included
+- **Achievement Trigger System**: Detects player collision and unlocks platform achievements
+- **Main Menu**: Scene loading and game initialization
+- **Pause Menu**: In-game pause functionality with time control
 
-## Technical Implementation
-- Uses Unity's `OnTriggerEnter` to detect player collision with achievement zones
-- Integrates with platform SDKs (Steamworks, Xbox Live, PlayStation Network)
-- Modular design allows easy addition of new achievements
+## Technologies
+- Unity Engine
+- C#
+- Steamworks SDK, Xbox SDK, PlayStation SDK
 
-## Usage
-1. Attach script to GameObject with trigger collider
-2. Assign achievement ID in Inspector
-3. System automatically unlocks achievement when player enters trigger zone
-
-## Code Architecture
-- **Component-based design** for maximum reusability
-- **Platform abstraction layer** handles different SDK implementations
-- **Event-driven** achievement unlocking
-```
+## About the Project
+Pretty Blank Island is a first-person exploration game where players discover runestones across a mysterious island. This repository contains the core systems I developed for cross-platform deployment.
