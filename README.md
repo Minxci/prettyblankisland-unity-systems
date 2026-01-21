@@ -1,16 +1,27 @@
 # Pretty Blank Island - Unity Systems
 
-Game systems built for Pretty Blank Island, a first-person exploration game submitted to Steam, Xbox, and PlayStation.
+Game systems built for Pretty Blank Island, a first-person exploration game developed by Xanthic Games and published by North Harbor Studios. Submitted to Steam, Xbox, and PlayStation.
 
 ## Systems Included
-- **Achievement Trigger System**: Detects player collision and unlocks platform achievements
-- **Main Menu**: Scene loading and game initialization
-- **Pause Menu**: In-game pause functionality with time control
+
+* **Achievement Trigger System**: Detects player collision and unlocks platform achievements
+* **Main Menu**: Scene loading, game initialization, and settings management
+* **Pause Menu**: In-game pause functionality with time control
+* **Splash Screen Controller**: Custom animated splash screens for North Harbor Studios and Xanthic Games branding
+* **First Person Controller**: Player movement and camera controls
+* **Rune Collection System**: Collectible discovery and progression tracking
 
 ## Technologies
-- Unity Engine
-- C#
-- Steamworks SDK, Xbox SDK, PlayStation SDK
+
+* Unity Engine (2021 LTS or later)
+* C#
 
 ## About the Project
-Pretty Blank Island is a first-person exploration game where players discover runestones across a mysterious island. This repository contains the core systems I developed for cross-platform deployment.
+
+Pretty Blank Island is a first-person exploration walking simulator where players discover ancient runes across a mysterious island to uncover its secrets. This repository contains the core gameplay systems developed for cross-platform deployment.
+
+**Developer**: Xanthic Games  
+**Publisher**: North Harbor Studios  
+**Platforms**: Steam, Xbox Series X|S, PlayStation 5
+
+## Project Structure
