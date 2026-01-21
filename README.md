@@ -25,3 +25,26 @@ Pretty Blank Island is a first-person exploration walking simulator where player
 **Platforms**: Steam, Xbox Series X|S, PlayStation 5
 
 ## Project Structure
+```
+Assets/
+├── Scripts/
+│   ├── MainMenu.cs - Main menu functionality
+│   ├── PauseMenu.cs - Pause system and settings
+│   ├── RuneCollector.cs - Collectible system
+│   ├── SplashScreenController.cs - Branded splash screens
+│   └── FirstPersonController.cs - Player controls
+└── Scenes/
+    ├── 0_Splash_Screen - Studio branding
+    ├── 1_Main_Menu - Game entry point
+    └── 2_Game - Main gameplay scene
+```
+
+## Setup Notes
+
+- Cursor management: Automatically locks and hides cursor on game start
+- Splash screens: Sequential display of publisher and developer branding
+- Scene loading: All scenes must be added to Build Settings in correct order
+
+## License
+
+All rights reserved - North Harbor Games LLC © 2025
